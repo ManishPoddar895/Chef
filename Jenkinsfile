@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Hello this is build Job'
-        sh 'echo "Hello world"'
+        sh 'mkdir jenkins'
       }
     }
     stage('Test') {
